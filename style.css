@@ -169,6 +169,7 @@ header span{
     font-size: 50px;
 }
 
+/* -------------------- Styling the Buttons From Here ------------ */
 .button{
     position: relative;
     display: flex;
@@ -228,3 +229,6 @@ header span{
     transform: translateY(4px);
     transition: transform 150ms;
 }
+
+/*------------------------  Add Responsiveness From Here -------------------- */
+

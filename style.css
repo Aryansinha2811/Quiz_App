@@ -124,11 +124,18 @@ header span{
     cursor: pointer;
 }
 
-.navbar ul{
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu{
     list-style: none;
     display: flex;
 }
-.navbar ul li a{
+.nav-item{
     display: block;
     color: #fefefe;
     text-decoration: none;
@@ -141,13 +148,29 @@ header span{
     justify-content: end;
 }
 
-.navbar ul li a:hover{
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link:hover{
     color: #4d4d4d;
 }
 
-.hamburger{
+/* .hamburger{
     display: none;
+    cursor: pointer;
 }
+
+.bar{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 2px;
+    top: -145px;
+    margin: 0px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    color: white;
+} */
 
 /* Hitting the Sentence and Buttons from here on  */
 
